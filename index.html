@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Francisco Jeraldo</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <ul class="nav p-4">
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #eeeeee">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos-title" style="color: #eeeeee">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#habilidades-title" style="color: #eeeeee">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto-title" style="color: #eeeeee">Contacto</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="container title py-5">
+        <div class="col-6 text-end pe-5">
+          <img class="yo" src="./assets/img/yo2-removebg-preview.png" alt="" />
+        </div>
+        <div class="col-4">
+          <h1 id="nombre-text" class="pb-1 fw-bold fs-1"></h1>
+          <p id="intro-text" class="description fs-3 pt-4 pe-2">
+            
+          </p>
+        </div>
+        
+      </div>
+
+      <div class="container text-center" id="proyectos">
+        <div class="title-2 mb-4">
+          <h2 class="text-title" id="proyectos-title">PROYECTOS</h2>
+        </div>
+        <div class="row gap-3">
+          <div class="card col p-0">
+            <img
+              src="./assets/img/Captura de pantalla 2024-08-29 172303(2).png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Menu de restorant de comida rapida con recepción de pedidos
+                manejado con NodeJS, entregando la información a cocina.
+              </p>
+            </div>
+          </div>
+          <div class="card col p-0">
+            <img
+              src="./assets/img/protyecto2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Proyecto de control de clientes con de CRUD usando Java y Angular
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-4" id="habilidades">
+        <div class="title-2 mb-4 fs-4" id="title-skills">
+          <h2 class="text-title" id="habilidades-title">HABILIDADES</h2>
+        </div>
+        
+        <div class="skills">
+          <div class="skill-container m-2" id="js">
+            <img
+            class="skill rounded-circle"
+            
+            src="./assets/img/Captura de pantalla 2024-08-27 225249.png"
+            alt="javascript"
+          />
+          </div >
+          <div class="skill-container m-2" id="java">
+            <img
+            class="skill"
+            
+            src="./assets/img/png-transparent-java-class-file-java-platform-standard-edition-java-development-kit-java-runtime-environment-coffee-jar-text-class-orange-thumbnail.png"
+            alt="java"
+          />
+          </div>
+          <div class="skill-container m-2" id="python">
+            <img
+            class="skill"
+            
+            src="./assets/img/Python.svg.png"
+            alt="python"
+          />
+          </div>
+          <div class="skill-container m-2" id="psql">
+            <img
+            class="skill"
+            
+            src="./assets/img/Postgresql_elephant.svg.png"
+            alt="postgresql"
+          />
+          </div>
+          <div class="skill-container m-2" id="ndjs">
+            <img
+            class="skill"
+            
+            src="./assets/img/nodejs.png"
+            alt="nodejs"
+          />
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="container d-flex flex-column justify-content-center p-5 border-top" id="contacto">
+        <div class="title-2 mb-4">
+          <h2 class="text-title" id="contacto-title">CONTACTO</h2>
+        </div>  
+        <div class="formulario">
+          <form class="p-5 col-5 border rounded" action="mailto:franciscojeraldof@gmail.com">
+          
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Enviar">
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0">© 2024 Francisco Jeraldo</span>
+      </div>
+  
+      <ul class="nav2 pe-4 col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="" href="#"><svg class="bi" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+          <path fill="#03A9F4" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"></path>
+          </svg></a></li>
+        <li class="ms-3"><a class="" href="#"><svg class="bi" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+          <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+          </svg></a></li>
+        <li class="ms-3"><a class="" href="#"><svg class="bi" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+          <path fill="#fff" d="M41,24c0,9.4-7.6,17-17,17S7,33.4,7,24S14.6,7,24,7S41,14.6,41,24z"></path><path fill="#455a64" d="M21 41v-5.5c0-.3.2-.5.5-.5s.5.2.5.5V41h2v-6.5c0-.3.2-.5.5-.5s.5.2.5.5V41h2v-5.5c0-.3.2-.5.5-.5s.5.2.5.5V41h1.8c.2-.3.2-.6.2-1.1V36c0-2.2-1.9-5.2-4.3-5.2h-2.5c-2.3 0-4.3 3.1-4.3 5.2v3.9c0 .4.1.8.2 1.1L21 41 21 41zM40.1 26.4C40.1 26.4 40.1 26.4 40.1 26.4c0 0-1.3-.4-2.4-.4 0 0-.1 0-.1 0-1.1 0-2.9.3-2.9.3-.1 0-.1 0-.1-.1 0-.1 0-.1.1-.1.1 0 2-.3 3.1-.3 1.1 0 2.4.4 2.5.4.1 0 .1.1.1.2C40.2 26.3 40.2 26.4 40.1 26.4zM39.8 27.2C39.8 27.2 39.8 27.2 39.8 27.2c0 0-1.4-.4-2.6-.4-.9 0-3 .2-3.1.2-.1 0-.1 0-.1-.1 0-.1 0-.1.1-.1.1 0 2.2-.2 3.1-.2 1.3 0 2.6.4 2.6.4.1 0 .1.1.1.2C39.9 27.1 39.9 27.2 39.8 27.2zM7.8 26.4c-.1 0-.1 0-.1-.1 0-.1 0-.1.1-.2.8-.2 2.4-.5 3.3-.5.8 0 3.5.2 3.6.2.1 0 .1.1.1.1 0 .1-.1.1-.1.1 0 0-2.7-.2-3.5-.2C10.1 26 8.6 26.2 7.8 26.4 7.8 26.4 7.8 26.4 7.8 26.4zM8.2 27.9c0 0-.1 0-.1-.1 0-.1 0-.1 0-.2.1 0 1.4-.8 2.9-1 1.3-.2 4 .1 4.2.1.1 0 .1.1.1.1 0 .1-.1.1-.1.1 0 0 0 0 0 0 0 0-2.8-.3-4.1-.1C9.6 27.1 8.2 27.9 8.2 27.9 8.2 27.9 8.2 27.9 8.2 27.9z"></path><path fill="#455a64" d="M14.2,23.5c0-4.4,4.6-8.5,10.3-8.5c5.7,0,10.3,4,10.3,8.5S31.5,31,24.5,31S14.2,27.9,14.2,23.5z"></path><path fill="#455a64" d="M28.6 16.3c0 0 1.7-2.3 4.8-2.3 1.2 1.2.4 4.8 0 5.8L28.6 16.3zM20.4 16.3c0 0-1.7-2.3-4.8-2.3-1.2 1.2-.4 4.8 0 5.8L20.4 16.3zM20.1 35.9c0 0-2.3 0-2.8 0-1.2 0-2.3-.5-2.8-1.5-.6-1.1-1.1-2.3-2.6-3.3-.3-.2-.1-.4.4-.4.5.1 1.4.2 2.1 1.1.7.9 1.5 2 2.8 2 1.3 0 2.7 0 3.5-.9L20.1 35.9z"></path><path fill="#00bcd4" d="M24,4C13,4,4,13,4,24s9,20,20,20s20-9,20-20S35,4,24,4z M24,40c-8.8,0-16-7.2-16-16S15.2,8,24,8 s16,7.2,16,16S32.8,40,24,40z"></path>
+          </svg></a></li>
+      </ul>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

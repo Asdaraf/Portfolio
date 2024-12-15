@@ -1,0 +1,76 @@
+*, body {
+    background-color: #201E43;
+    color: #EEEEEE;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.nav, .nav-item {
+    background-color: #508C9B;
+    color: #EEEEEE
+}
+
+.nav-link {
+    color: #EEEEEE
+}
+
+.title {
+    display: flex;
+}
+
+.title-2, .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-title {
+    padding: 0.3rem .8rem;
+    border: solid 1px #508C9B;
+    background-color: #134B70;
+    border-radius: 1.4rem;
+    transition: filter .5s;
+    font-size: x-large;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+h2 {
+    background-color: #134B70;
+}
+
+.yo {
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    );
+    width: 200px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px black; */
+    border-radius: 50%;
+    width:8rem;
+    height: 8rem;
+    text-align: center;
+    transition: filter 0.3s ease;
+}
+
+.skill-container:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
+
+.skill {
+    width: 5rem;
+    /* filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); */
+}
+
+
